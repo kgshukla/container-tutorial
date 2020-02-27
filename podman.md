@@ -1,7 +1,7 @@
 # Podman Tutorial
 ## Lab 1 - Pulling, Running OCI images
 
-Click this [link] (https://learn.openshift.com/subsystems/container-internals-lab-2-0-part-1) to get your lab environment. Click on "Start Session" button to begin your lab. Please follow the instructions on the left hand side of the webpage.
+Click this [link](https://learn.openshift.com/subsystems/container-internals-lab-2-0-part-1) to get your lab environment. Click on "Start Session" button to begin your lab. Please follow the instructions on the left hand side of the webpage.
 
 podman cli is similar to docker cli. If you are familiar with docker cli, then using podman is easy. Following commands are used in the lab.
 
@@ -19,9 +19,9 @@ port mapping
 ## Lab 2 - Running pods via Podman
 People associate running pods with Kubernetes. And when they run containers in their development runtimes, they do not even think about the role pods could play—even in a localized runtime.  Most people coming from the Docker world of running single containers do not envision the concept of running pods.
 
-Please read this [blog] (https://developers.redhat.com/blog/2019/01/15/podman-managing-containers-pods/) to understand pod concepts. The following commands are taken up from this blog.
+Please read this [blog](https://developers.redhat.com/blog/2019/01/15/podman-managing-containers-pods/) to understand pod concepts. The following commands are taken up from this blog.
 
-Continue running these commands on the same environment that you provisioned in the previous section. If you have lost the environment, click [here] (https://learn.openshift.com/subsystems/container-internals-lab-2-0-part-1) to get an environment.
+Continue running these commands on the same environment that you provisioned in the previous section. If you have lost the environment, click [here](https://learn.openshift.com/subsystems/container-internals-lab-2-0-part-1) to get an environment.
 
 Run "podman pod" to get a list of all supported attributes
 
