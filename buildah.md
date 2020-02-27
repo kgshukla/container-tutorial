@@ -1,6 +1,6 @@
 ![buildah logo](https://cdn.rawgit.com/containers/buildah/master/logos/buildah-logo_large.png)
 
-# Buildah Tutorial 1
+# Buildah Tutorial
 ## Building OCI container images
 
 This tutorial is cloned and modified from buildah tutorials located [here](https://github.com/containers/buildah/tree/master/docs/tutorials)
