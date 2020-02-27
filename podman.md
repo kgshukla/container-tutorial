@@ -64,7 +64,9 @@ Looking at the list of containers, we also see each container and their respecti
     6074ffd22b93  k8s.gcr.io/pause:3.1                      7 minutes ago   Up 7 minutes ago          9e0a57248aed-infra  9e0a57248aed
 
 
-If you would like to know more on podman pod, please refer to this blog which explains more on the topic
 
+## Lab 3 - Optional - Pods and Container management
+
+If you would like to know more on podman pod, please refer to this blog which explains more on the topic. It also has commands that you could run on the same lab environment
 
 https://developers.redhat.com/blog/2019/01/15/podman-managing-containers-pods/
