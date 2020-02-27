@@ -11,6 +11,10 @@ In brief the `containers/image` project provides mechanisms to copy, push, pull,
 
 Buildah works on a number of Linux distributions, but is not supported on Windows or Mac platforms at this time.  Buildah specializes in building OCI images and [Podman](https://podman.io) specializes in all of the commands and functions that help you to maintain, modify and run OCI images and containers.  For more information on the difference between the projects please refer to the [Buildah and Podman relationship](https://github.com/containers/buildah#buildah-and-podman-relationship) section on the main README.md.
 
+## Lab Environment
+
+We are going to use the lab environment hosted on [Learn.Openshift.Com](https://learn.openshift.com). Click this [link](https://learn.openshift.com/subsystems/container-internals-lab-2-0-part-1) to get your lab environment. Click on "Start Session" button to begin your lab. Please DO NOT follow the lab instructions on the left hand side of the webpage. Follow the instructions below to run buildah lab.
+
 ## Install dnf
 
 install dnf by running:
