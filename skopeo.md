@@ -30,4 +30,26 @@ Click this [link](https://learn.openshift.com/subsystems/container-internals-lab
 
 ## Lab 2 - Inspecting OCI Images
 
-## Lab 3 - Moving OCI Images
+Run the following command to inspect an image present in a remote repository. skopeo does not download the image to your local filesystem to inspect the image
+
+      $ skopeo inspect docker://registry.access.redhat.com/rhel7
+     
+Check the result, see the number of layers the image has, their sha256 ids, arch_type, annotations etc
+
+## Lab 3 - Copying OCI Images
+
+Verify the image is not present in the local docker registry
+
+      $ docker images | grep rhel7_orig
+      
+Copy the image from redhat registry
+
+      $ skopeo copy docker://registry.access.redhat.com/rhel7 docker-daemon:registry.access.redhat.com/rhel7_orig/rhel7_orig:latest
+      
+Verify the image has been copied
+      
+      $ docker images | grep rhel7_orig
+      
+
+
+Run the following command to copy an image present in 
