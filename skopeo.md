@@ -28,7 +28,7 @@ Skopeo operates on the following image and repository types:
 ## Getting an Environment
 Click this [link](https://learn.openshift.com/subsystems/container-internals-lab-2-0-part-1) to get your lab environment. Click on "Start Session" button to begin your lab. Please DO NOT follow the lab instructions on the left hand side of the webpage. Follow the instructions below to run skopeo lab.
 
-## Lab 2 - Inspecting OCI Images
+## Lab 1 - Inspecting OCI Images
 
 Run the following command to inspect an image present in a remote repository. skopeo does not download the image to your local filesystem to inspect the image
 
@@ -36,7 +36,7 @@ Run the following command to inspect an image present in a remote repository. sk
      
 Check the result, see the number of layers the image has, their sha256 ids, arch_type, annotations etc
 
-## Lab 3 - Copying OCI Images
+## Lab 2 - Copying OCI Images
 
 Verify the image is not present in the local docker registry
 
