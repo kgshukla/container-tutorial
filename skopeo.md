@@ -26,7 +26,7 @@ Skopeo operates on the following image and repository types:
 
 
 ## Getting an Environment
-Click this [link](https://learn.openshift.com/subsystems/container-internals-lab-2-0-part-1) to get your lab environment. Click on "Start Session" button to begin your lab.
+Click this [link](https://learn.openshift.com/subsystems/container-internals-lab-2-0-part-1) to get your lab environment. Click on "Start Session" button to begin your lab. Please DO NOT follow the lab instructions on the left hand side of the webpage. Follow the instructions below to run skopeo lab.
 
 ## Lab 2 - Inspecting OCI Images
 
