@@ -1,7 +1,7 @@
-# Podman Tutorial 1
-## Pulling, Running OCI images
+# Podman Tutorial
+## Lab 1 - Pulling, Running OCI images
 
-Click this [link] (https://learn.openshift.com/subsystems/container-internals-lab-2-0-part-1) to get your lab environment. 
+Click this [link] (https://learn.openshift.com/subsystems/container-internals-lab-2-0-part-1) to get your lab environment. Click on "Start Session" button to begin your lab. Please follow the instructions on the left hand side of the webpage.
 
 podman cli is similar to docker cli. If you are familiar with docker cli, then using podman is easy. Following commands are used in the lab.
 
@@ -16,7 +16,7 @@ podman top
 port mapping 
 
 
-## Running pods via Podman
+## Lab 2 - Running pods via Podman
 People associate running pods with Kubernetes. And when they run containers in their development runtimes, they do not even think about the role pods could play—even in a localized runtime.  Most people coming from the Docker world of running single containers do not envision the concept of running pods.
 
 Please read this [blog] (https://developers.redhat.com/blog/2019/01/15/podman-managing-containers-pods/) to understand pod concepts. The following commands are taken up from this blog.
@@ -39,7 +39,7 @@ List the pods
 
 Note that the container has a single container in it.  The container is the “infra” command. We can further observe this using the podman ps command by passing the command line switch *–pod*.
 
-    $ sudo podman ps -a --pod
+    $ podman ps -a --pod
     CONTAINER ID  IMAGE                   COMMAND  CREATED      STATUS     PORTS  NAMES               POD
     6074ffd22b93  k8s.gcr.io/pause:3.1    3 minutes ago  Up 3 minutes ago         9e0a57248aed-infra  9e0a57248aed
 
@@ -58,7 +58,7 @@ Looking at the list of containers, we also see each container and their respecti
 
     
 
-    $ sudo podman ps -a --pod
+    $ podman ps -a --pod
     CONTAINER ID  IMAGE                            COMMAND  CREATED         STATUS             PORTS  NAMES               POD
     0f62e6dcdfdb  docker.io/library/alpine:latest  top      14 seconds ago  Up 14 seconds ago         awesome_archimedes  9e0a57248aed
     6074ffd22b93  k8s.gcr.io/pause:3.1                      7 minutes ago   Up 7 minutes ago          9e0a57248aed-infra  9e0a57248aed
